@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.js"></script>
+</head>
+<body>
+    <!-- Empty div where the viz will be placed -->
+  <div id="tableauViz"></div>
+  
+  <script type='text/javascript'>
+  function initializeViz() {
+  // JS object that points at empty div in the html
+  var placeholderDiv = document.getElementById("tableauViz");
+  // URL of the viz to be embedded
+  var url = "https://public.tableau.com/app/profile/smitha.kannanaikkal1365/viz/dark_web/Dashboard1";
+  // An object that contains options specifying how to embed the viz
+  var options = {
+    width: '600px',
+    height: '600px',
+    hideTabs: true,
+    hideToolbar: true,
+  };
+  viz = new tableau.Viz(placeholderDiv, url, options);
+  }
+ </script>
+</body>
+</html>
+
+
+
