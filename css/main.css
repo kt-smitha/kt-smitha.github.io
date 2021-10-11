@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #FEF9E7;
+    background-color: 'linen';
 }
 nav ul, footer ul {
     font-family:'Roboto Slab';
@@ -25,6 +25,11 @@ h1 {
     font-family:'Roboto Slab';
 }
 p {
+    color: #333;
+    font family : 'Roboto Slab';
+    size : 3;
+}
+div {
     color: #333;
     font family : 'Roboto Slab';
     size : 3;
