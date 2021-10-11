@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: lightblue
+    background-color: 'lightblue';
 }
 nav ul, footer ul {
     font-family:'Roboto Slab';
@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #082C50;
 }
 a:hover {
     text-decoration: underline;
